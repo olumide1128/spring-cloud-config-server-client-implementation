@@ -1,2 +1,13 @@
 server:
   port: 8888
+
+spring:
+  application:
+    name: config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/olumide1128/config-repo.git
+          search-paths: dev,test,prod
