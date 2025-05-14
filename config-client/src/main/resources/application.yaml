@@ -1,12 +1,13 @@
 server:
   port: 8081
+  shutdown: graceful
 
 spring:
   application:
     name: config-client
 
   profiles:
-    active: prod
+    active: test
 
     cloud:
       config:
