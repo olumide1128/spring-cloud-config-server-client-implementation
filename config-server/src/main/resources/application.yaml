@@ -10,4 +10,4 @@ spring:
       server:
         git:
           uri: https://github.com/olumide1128/config-repo.git
-          search-paths: dev,test,prod
+          search-paths: '{profile}'
